@@ -1,9 +1,17 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    src: url("http://mha.fi/content/roboto-mono.woff2")
+}
+
 body {
-    background-color: #181818;
-    font-family: monospace;
-    color: #ccc;
-    max-width: 500px;
-    margin: 0 auto;
+    font-size: 15px;
+    font-family: Roboto Mono;
+    background: #181818;
+    line-height: 20px;
+    letter-spacing: normal;
+    color: #ffffffe1
 }
 
 a,
