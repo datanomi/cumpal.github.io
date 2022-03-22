@@ -1,5 +1,5 @@
 body {
-    background-color: #181818;
+    background-color: #000;
     font-family: monospace;
     color: #ccc;
     max-width: 500px;
@@ -43,8 +43,18 @@ a:hover {
     width: 70%;
 }
 
+@media (min-width: 1000px) {
+
+    .anime-left,
+    .anime-right {
+        opacity: 0.75;
+    }
+}
+
 #catvibe
 
+<style>
 .aligncenter {
     text-align: center;
 }
+</style>
